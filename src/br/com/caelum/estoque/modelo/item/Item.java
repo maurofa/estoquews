@@ -1,13 +1,10 @@
 package br.com.caelum.estoque.modelo.item;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
-@XmlRootElement
 public class Item {
 
 	private String codigo;
-	private String nome;
 	private String tipo;
+	private String nome;
 	private int quantidade;
 
 	Item() {
